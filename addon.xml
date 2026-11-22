@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.logoremakefour" name="LogoRemakeFour Media Center" version="1.0.0" provider-name="LogoRemakeFour">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="app.js">
+    <provides>video audio image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">LogoRemakeFour Media Center web application</summary>
+    <description lang="en_GB">A web-based media center UI for personal media, radio directory discovery, and user-configured IPTV sources.</description>
+    <platform>all</platform>
+    <license>CC0-1.0</license>
+  </extension>
+</addon>

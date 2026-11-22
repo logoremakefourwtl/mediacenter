@@ -1,0 +1,1 @@
+<template><section><span class="eyebrow">Radio guide</span><h1 class="page-title">Radio</h1><p class="muted">Listen to stations through the Radio-Browser community directory.</p><button class="button" @click="$emit('navigate','radio')">Browse stations</button></section></template>
