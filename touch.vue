@@ -1,0 +1,1 @@
+<template><section><span class="eyebrow">Remote control</span><h1 class="page-title">Touch</h1><p class="muted">Touch-friendly navigation controls.</p><div class="grid"><button v-for="item in state.nav" :key="item[0]" class="tile" @click="$emit('navigate',item[0])"><span class="tile-icon">{{item[1]}}</span><strong>{{item[2]}}</strong></button></div></section></template>
